@@ -123,9 +123,9 @@ const FetchNftsHolder = () => {
 
   return (
     <>
-      <MainCard title="Create Token">
+      <MainCard title="NFT Holders Fetcher">
         <div className="container text-center pt-4 mt-4">
-          <h1>Get Your Holders Data</h1>
+          <h1>NFT Holders Fetcher</h1>
           <button className="backward" type="button" onClick={backToLanding}>
             <img
               src="https://firebasestorage.googleapis.com/v0/b/mint-pass-01.appspot.com/o/rakkigusu%2Fback.png?alt=media&token=f3d57188-1756-4755-936e-14c2f4ec0d8a"
