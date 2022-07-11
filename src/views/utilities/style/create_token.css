@@ -1,0 +1,15 @@
+.backward {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  background: none;
+  border: none;
+}
+
+.req-button {
+  color: #4a6cdf;
+  background: transparent;
+  border: 2px solid #4a6cdf;
+  padding: 0.5rem 2rem !important;
+  border-radius: 1rem;
+}

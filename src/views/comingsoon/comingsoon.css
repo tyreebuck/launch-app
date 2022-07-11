@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Pixellari";
+  src: url("../../assets/font/Pixellari.ttf") format("truetype");
+}
+
+*{
+  font-family: "Pixellari", Fallback, sans-serif;
+}
+
+.bg-set {
+  background: url("../../assets/images/bg.gif");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  padding: 8rem 5rem;
+}
+
+.text-banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.text-banner h1 {
+  font-size: calc(3.375rem + 1.5vw);
+}
+
+.text-button {
+  padding: 1rem;
+  background: #574880;
+  color: white;
+  text-decoration: none;
+}
+
+.text-button:hover {
+  color: white;
+}
+
+.img-banner {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 30%;
+}
+
+@media only screen and (min-width: 1400px) {
+  .text-banner h1 {
+    font-size: calc(5.375rem + 1.5vw);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .bg-set {
+    padding: 1rem;
+  }
+  .img-banner {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+    .img-banner {
+      width: 45%;
+    }
+  }
